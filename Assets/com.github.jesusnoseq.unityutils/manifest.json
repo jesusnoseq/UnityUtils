@@ -1,0 +1,23 @@
+{
+    "name": "com.jesusnoseq.util",
+    "version": "1.0.0",
+    "displayName": "Unity utils",
+    "description": "Utility package",
+    "unity": "2021.2",
+    "documentationUrl": "https://github.com/jesusnoseq/UnityUtils/blob/main/README.md",
+    "changelogUrl": "https://github.com/jesusnoseq/UnityUtils/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://raw.githubusercontent.com/jesusnoseq/UnityUtils/main/LICENSE",
+    "dependencies": {
+    },
+    "keywords": [
+        "utils",
+        "jesusnoseq",
+        "compilation"
+    ],
+    "author": {
+        "name": "jesusnoseq",
+        "email": "hello@jesusnoseq.com",
+        "url": "https://www.jesusnoseq.com"
+    }
+  }
+  
