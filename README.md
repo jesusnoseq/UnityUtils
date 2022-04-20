@@ -3,6 +3,9 @@ A mix of utils for Unity3D. Some are my own, others are copied and adapted.
 
 I personally use this scripts for my game jam entries.
 
+## How to install
+TODO
+
 
 ## List of Utilities by categories
 
@@ -22,28 +25,63 @@ I personally use this scripts for my game jam entries.
 CoroutineUtils → Handful set of coroutines funtions to make them easy to use
 
 ### Data
-TO-DO
+AdvancedStateMachineBehaviour
+DataSerializer
+Hasher
+PlayerPrefsX
+Shuffle
+ValidationUtils
 
 ### Editor
-TO-DO
+DynamicScale
+RegexAttribute
+RegexDrawer
+SelectionBase
 
 ### Extensions
-TO-DO
+AnimatorExtensions
+CollectionUtils
+EmumUtils
+GameObjectExtensions
+IntegerExtensions
+RandUtils
+RectTransformExtensions
+RendererExtensions
+UISetExtensions
 
 ### Game Flow
-TO-DO
+LoadScene
+OnSceneLoad
+QuitApplication
+
+### GameObjectActions
+AutoRotate
+ChangePointer
+GoVector
+LightBlink
+LookAt
+LookAtMouse
+MoveToMouse
+SinMove
 
 ### Game Objects
-TO-DO
-
-### HTTP
-TO-DO
+BasicPooler
+DontDestroy
+MouseClicks
+PlayerSpaw
+* Singleton 
+    * MonoBehaviourSingleton
+    * MonoBehaviourSingletonPersistent
 
 ### Integrations
-TO-DO
+RankClient
+GoogleDriveCSVDownloader
+#### HTTP
+RequestManager
+JsonHelper
 
 ### Localization
-TO-DO
+Localization
 
 ### Shaders
 TO-DO
@@ -53,7 +91,7 @@ TO-DO
 * SoundManager → play sound effects with a randomized variance
 
 ### UI Helpers
-* Counter → Interface countdown counter
+* Counter → A simple countdown counter
 * FPS → Frame Per Seconds counter. Just add the prefab to your scene
 * Menu → Manage Animated menus easily
 * AlwaysOnTop → Set the game window always over the top
@@ -64,6 +102,15 @@ TO-DO
 ## TO DO
 * Add camera examples
 * Add coroutines examples
+* Add editor examples
+* Add extensions examples
+* Add more UI helper examples
+* Add unity extensions examples
+* Add Localization examples
+* Improve and add integration examples
+* Update deprecated methods and add http examples
+* Prepare shaders and examples
+* Improve Localization and add examples
 * Add tests
 
 
@@ -72,7 +119,7 @@ TO-DO
 * TextMesh Pro
 
 ## Authorship
-I try to keep the original authorship of the scripts with links to the source as code comments. These links usually lead to stakcoverflow or the unity forum. 
+I try to keep the original authorship of the scripts with links to the source as code comments. These links usually lead answers.unity.com. 
 
 If any authorship is not well identified or you don't want your script to be here, let me know.
 
