@@ -15,70 +15,70 @@ TODO
 * MirrorFlipCamera → Create the mirror effect on a camera
 
 ### Compatibility
-* MouseClick → Handle mouse clicks indifferently of the imput system. 
-* MousePosition →  Handle mouse the position indifferently of the imput system
+* MouseClick → Handle mouse clicks indifferently of the input system. 
+* MousePosition →  Handle mouse the position indifferently of the input system
 
-> This two mouse scripts should be executed before read the mouse clicks or position to work optimally. 
+> These two mouse scripts should be executed before reading the mouse clicks or position to work optimally. 
 > Change the order in: Edit > Project Settings > Script Execution Order
 
 ### Coroutines
-CoroutineUtils → Handful set of coroutines funtions to make them easy to use
+* CoroutineUtils → Handful set of coroutines functions to make them easy to use
 
 ### Data
-AdvancedStateMachineBehaviour
-DataSerializer
-Hasher
-PlayerPrefsX
-Shuffle
-ValidationUtils
+* AdvancedStateMachineBehaviour
+* DataSerializer
+* Hasher → implement SHA256 hashing function
+* PlayerPrefsX → handle save and load complex data types
+* Shuffle → shuffle the items of a list
+* ValidationUtils → implements some validation functions for emails and passwords
 
 ### Editor
-DynamicScale
-RegexAttribute
-RegexDrawer
-SelectionBase
+* DynamicScale
+* RegexAttribute 
+* RegexDrawer
+* SelectionBase → helps to avoid selecting children objects
 
 ### Extensions
-AnimatorExtensions
-CollectionUtils
-EmumUtils
-GameObjectExtensions
-IntegerExtensions
-RandUtils
-RectTransformExtensions
-RendererExtensions
-UISetExtensions
+* AnimatorExtensions
+* CollectionUtils
+* EmumUtils
+* GameObjectExtensions
+* IntegerExtensions
+* RandUtils
+* RectTransformExtensions
+* RendererExtensions
+* UISetExtensions
 
 ### Game Flow
-LoadScene
-OnSceneLoad
-QuitApplication
+* LoadScene → script to load a scene by name
+* OnSceneLoad → Triggers on scene load
+* QuitApplication → Implement system-conditioned application quit
 
 ### GameObjectActions
-AutoRotate
-ChangePointer
-GoVector
-LightBlink
-LookAt
-LookAtMouse
-MoveToMouse
-SinMove
+* AutoRotate → automatically rotates a gameobject
+* ChangePointer → change mouse cursor
+* GoVector → causes the object to move in the specified vector 
+* LightBlink → make a light object to blink
+* LookAt → make a game object to look at other game object
+* LookAtMouse → make a game object look at the mouse
+* MoveToMouse → move object to follow the cursor
+* SinMove → make a game object to move following a sin function
 
 ### Game Objects
-BasicPooler
-DontDestroy
-MouseClicks
-PlayerSpaw
-* Singleton 
-    * MonoBehaviourSingleton
-    * MonoBehaviourSingletonPersistent
+* BasicPooler → implements a basic object pooler pattern
+* DontDestroy → avoid the destruction of a game object with script beetwen scenes
+* MouseClicks → jandle mouse clicks events
+* PlayerSpawn → useful to spawn the players prefab in a location
+* Singleton
+    * MonoBehaviourSingleton → implement a simple singleton pattern
+    * MonoBehaviourSingletonPersistent → singleton that is not destried between scenes
 
 ### Integrations
-RankClient
-GoogleDriveCSVDownloader
-#### HTTP
-RequestManager
-JsonHelper
+* RankClient
+* GoogleDriveCSVDownloader
+* HTTP
+    * RequestManager
+    * JsonHelper
 
 ### Localization
 Localization
@@ -87,7 +87,7 @@ Localization
 TO-DO
 
 ### Sound
-* MusicManager → handle the background music (looped and persistant between scenes)
+* MusicManager → handle the background music (looped and persistent between scenes)
 * SoundManager → play sound effects with a randomized variance
 
 ### UI Helpers
@@ -113,13 +113,17 @@ TO-DO
 * Improve Localization and add examples
 * Add tests
 
-
 ## Dependencies
 * DOTween
 * TextMesh Pro
 
+## Github repos with useful unity resources
+* [awesome-unity](https://github.com/RyanNielson/awesome-unity)
+* [twitch-chat-connect](https://github.com/rhomita/twitch-chat-connect)
+* [Anime-Speed-Lines](https://github.com/MirzaBeig/Anime-Speed-Lines)
+
 ## Authorship
-I try to keep the original authorship of the scripts with links to the source as code comments. These links usually lead answers.unity.com. 
+I try to keep the original authorship of the scripts with links to the source as code comments. These links usually lead to answers.unity.com. 
 
 If any authorship is not well identified or you don't want your script to be here, let me know.
 
