@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "key": "game_title",
+            "value": "Your game title"
+        },
+        {
+            "key": "play_btn",
+            "value": "Play"
+        },
+        {
+            "key": "quit_btn",
+            "value": "Quit"
+        },
+        {
+            "key": "options_btn",
+            "value": "Options"
+        },
+        {
+            "key": "multiplayer_btn",
+            "value": "Multiplayer"
+        },
+        {
+            "key": "login_btn",
+            "value": "Login"
+        }
+    ]
+}
