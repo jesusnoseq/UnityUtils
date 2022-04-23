@@ -33,9 +33,6 @@ TODO
 * ValidationUtils → implements some validation functions for emails and passwords
 
 ### Editor
-* DynamicScale
-* RegexAttribute 
-* RegexDrawer
 * SelectionBase → helps to avoid selecting children objects
 
 ### Extensions
@@ -74,6 +71,7 @@ TODO
     * MonoBehaviourSingletonPersistent → singleton that is not destried between scenes
 
 ### Integrations
+* InternetReadiness → check for internet connection
 * RankClient
 * GoogleDriveCSVDownloader
 * HTTP
@@ -81,7 +79,7 @@ TODO
     * JsonHelper
 
 ### Localization
-Localization
+Localization → manage transalations 
 
 ### Shaders
 TO-DO
@@ -104,7 +102,6 @@ TO-DO
 * Add coroutines examples
 * Add editor examples
 * Add extensions examples
-* Add more UI helper examples
 * Add unity extensions examples
 * Add Localization examples
 * Improve and add integration examples
@@ -117,7 +114,7 @@ TO-DO
 * DOTween
 * TextMesh Pro
 
-## Github repos with useful unity resources
+## Ohter Github repos with useful unity resources
 * [awesome-unity](https://github.com/RyanNielson/awesome-unity)
 * [twitch-chat-connect](https://github.com/rhomita/twitch-chat-connect)
 * [Anime-Speed-Lines](https://github.com/MirzaBeig/Anime-Speed-Lines)
