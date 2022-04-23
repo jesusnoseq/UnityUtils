@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
 namespace com.jesusnoseq.util
 {
-    public class PlayerSpaw : MonoBehaviour {
+    public class PlayerSpawn : MonoBehaviour {
         [SerializeField]
         GameObject playerPrefab;
 
