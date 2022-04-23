@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using DG;
 using DG.Tweening;
 
 
 namespace com.jesusnoseq.util
 {
-    [CreateAssetMenu(fileName = "AnimationData", menuName = "NinjaMenu/Animation", order = 1)]
+    [CreateAssetMenu(fileName = "AnimationData", menuName = "Utils/Menu/Animation", order = 1)]
     public class AnimationData : ScriptableObject
     {
         public Vector2 anchorMintarget=Vector2.zero;
