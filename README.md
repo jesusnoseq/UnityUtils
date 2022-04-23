@@ -25,8 +25,9 @@ TODO
 * CoroutineUtils → Handful set of coroutines functions to make them easy to use
 
 ### Data
-* AdvancedStateMachineBehaviour
-* DataSerializer
+* AdvancedStateMachineBehaviour → Unity StateMachine with some extra methods
+* DataSerializer → serialize data to base64, bytes or string
+* JsonHelper → serilize from and to JSON format
 * Hasher → implement SHA256 hashing function
 * PlayerPrefsX → handle save and load complex data types
 * Shuffle → shuffle the items of a list
@@ -36,15 +37,13 @@ TODO
 * SelectionBase → helps to avoid selecting children objects
 
 ### Extensions
-* AnimatorExtensions
-* CollectionUtils
-* EmumUtils
-* GameObjectExtensions
-* IntegerExtensions
-* RandUtils
-* RectTransformExtensions
-* RendererExtensions
-* UISetExtensions
+* AnimatorExtensions  → add GetBehaviour and IsPlaying methods
+* CollectionUtils → add IndexOf and IndexOfOrZero for arrays
+* EmumUtils → convert Enum to Dictionary and the other way around 
+* GameObjectExtensions → add GetInterface/s methods
+* IntegerExtensions → add ParseInt and ParseNullableInt methods
+* RandUtils → add RandomEnumValue and RandomItemFromList methods
+* RendererExtensions → add IsVisibleFrom method
 
 ### Game Flow
 * LoadScene → script to load a scene by name
@@ -72,11 +71,9 @@ TODO
 
 ### Integrations
 * InternetReadiness → check for internet connection
-* RankClient
-* GoogleDriveCSVDownloader
+* RankClient → A custom Rank API integration
 * HTTP
     * RequestManager
-    * JsonHelper
 
 ### Localization
 Localization → manage transalations 
@@ -95,7 +92,6 @@ TO-DO
 * AlwaysOnTop → Set the game window always over the top
 * BlinkText → Make text component blink
 * FadeColor → Fade the color of a sprite component 
-
 
 ## TO DO
 * Add camera examples
