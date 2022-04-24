@@ -17,9 +17,6 @@ I personally use this scripts for my game jam entries.
 ![Expected Assembly Definition References](Documentation~/ExpectedAssemblyDefinitionReferences.png)
 4. Remove missing references and add the ones that are missing from the image
 
-
-
-
 ## List of Utilities by categories
 
 ### Camera
@@ -119,9 +116,8 @@ TO-DO
 * Improve Localization and add examples
 * Add tests
 
-## Dependencies
+## External Dependencies
 * DOTween
-* TextMesh Pro
 
 ## Ohter Github repos with useful unity resources
 * [awesome-unity](https://github.com/RyanNielson/awesome-unity)
