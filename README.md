@@ -4,7 +4,20 @@ A mix of utils for Unity3D. Some are my own, others are copied and adapted.
 I personally use this scripts for my game jam entries.
 
 ## How to install
-TODO
+1. Install [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
+2. Setup DOTween and generate ASMFDEF files
+3. Open the package manager (Window → Package Manager)
+4. Add Package from git URL https://github.com/jesusnoseq/UnityUtils or clone repo and add it from disk
+
+### If there are some console errors
+#### Make sure that assembly definition references are OK
+1. Find and select the package unity utils in package folder from unity project panel
+2. Open Runtime folder and select the Assembly Definition Asset file (com.jesusnoseq.util)
+3. Go to Assembly Definition References and make sure they looks like this
+![Expected Assembly Definition References](Documentation~/ExpectedAssemblyDefinitionReferences.png)
+4. Remove missing references and add the ones that are missing from the image
+
+
 
 
 ## List of Utilities by categories
