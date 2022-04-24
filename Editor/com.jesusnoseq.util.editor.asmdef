@@ -1,12 +1,10 @@
 {
-    "name": "com.jesusnoseq.util",
+    "name": "com.jesusnoseq.util.Editor",
     "rootNamespace": "",
-    "references": [
-        "Unity.InputSystem",
-        "Unity.TextMeshPro",
-        "DOTween.Modules"
+    "references": [],
+    "includePlatforms": [
+        "Editor"
     ],
-    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
