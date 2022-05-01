@@ -5,18 +5,17 @@ using System.Text;
 
 namespace com.jesusnoseq.util
 {
-    public delegate void OnPlayerRanksCompleteCallBack(RankItem[] playerRanks);
+    public delegate void OnPlayerRanksGetCompleteCallBack(RankItem[] playerRanks);
+    public delegate void OnPlayerRanksSendCompleteCallBack(string result);
 
     [RequireComponent(typeof(RequestManager))]
     public class RankClientAPI : MonoBehaviour
     {
         private RequestManager requestManager;
-        [SerializeField]
         private string endPointURL=RankApiClientConfig.endPointURL;
-        [SerializeField]
         private string salt=RankApiClientConfig.salt;
 
-        public void GetPlayerRanks(OnPlayerRanksCompleteCallBack callback)
+        public void GetPlayerRanks(OnPlayerRanksGetCompleteCallBack callback)
         {
             requestManager = GetComponent<RequestManager>();
             requestManager.Get(endPointURL, (result) => {
@@ -25,7 +24,7 @@ namespace com.jesusnoseq.util
             });
         }
 
-        public void PostRanks(string name, int score)
+        public void PostRanks(string name, int score, OnPlayerRanksSendCompleteCallBack callback=null)
         {
             requestManager = GetComponent<RequestManager>();
             RankItem rank = new RankItem(name, score);
@@ -34,7 +33,13 @@ namespace com.jesusnoseq.util
             string jsonData = JsonUtility.ToJson(rank);
 
             requestManager.Post(endPointURL, jsonData, (result) => {
-                Debug.Log("Result: "+ result);
+                if(callback != null){
+                    callback(result);
+                }else{
+                    Debug.Log(endPointURL);
+                    Debug.Log(jsonData);
+                    Debug.Log(result);
+                }
             });
         }
     }

@@ -23,31 +23,46 @@ namespace com.jesusnoseq.util
         {
             UnityWebRequest www = UnityWebRequest.Get(url);
             yield return www.SendWebRequest();
-            if (www.error == null)
+            if (!www.isHttpError && !www.isNetworkError)
             {
                 callback(www.downloadHandler.text);
             }
             else
             {
-                Debug.Log("GET ERROR: " + www.error);
+                Debug.LogError("GET ERROR: " + www.error);
+                PrintRequestInfo(www);
             }
         }
 
         private IEnumerator PostCor(string url, string postData, OnRequestCompleteCallBack callback)
         {
-            UnityWebRequest www = UnityWebRequest.Post(url, postData);
+            var raw = System.Text.Encoding.UTF8.GetBytes(postData);
+            UnityWebRequest www =new UnityWebRequest(url, "POST");
+            www.uploadHandler = (UploadHandler) new UploadHandlerRaw(raw);
+            www.downloadHandler = (DownloadHandler) new DownloadHandlerBuffer();
             www.SetRequestHeader("Content-Type", "application/json");
-     
+            
             yield return www.SendWebRequest();
 
-            if (www.error == null)
+            if (!www.isHttpError && !www.isNetworkError)
             {
                 callback(www.downloadHandler.text);
             }
             else
             {
                 Debug.Log("POST ERROR: " + www.error);
+                PrintRequestInfo(www);
             }
+        }
+
+        private void PrintRequestInfo(UnityWebRequest www){
+                Debug.Log("Request debug info \n"+
+                    "isDone "+www.isDone +"\n"+
+                    "isNetworkError  "+www.isNetworkError+"\n"+
+                    "isHttpError  "+www.isHttpError+"\n"+
+                    "text "+www.downloadHandler.text+"\n"+
+                    "result "+www.result+"\n"+
+                    "responseCode "+www.responseCode);
         }
 
     }
