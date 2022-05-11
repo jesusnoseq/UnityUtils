@@ -119,7 +119,7 @@ TO-DO
 ## External Dependencies
 * DOTween
 
-## Ohter Github repos with useful unity resources
+## Other Github repos with useful unity resources
 * [awesome-unity](https://github.com/RyanNielson/awesome-unity)
 * [twitch-chat-connect](https://github.com/rhomita/twitch-chat-connect)
 * [Anime-Speed-Lines](https://github.com/MirzaBeig/Anime-Speed-Lines)
