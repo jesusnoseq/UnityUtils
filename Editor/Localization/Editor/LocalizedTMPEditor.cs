@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace com.jesusnoseq.util
+namespace com.jesusnoseq.util.editor
 {
     [CustomEditor(typeof(LocalizedTMP))]
     public class LocalizedTMPEditor : Editor

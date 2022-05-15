@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using com.jesusnoseq.util;
 
-namespace com.jesusnoseq.util
+namespace com.jesusnoseq.util.editor
 {
     public class LocalizationDataEditor : EditorWindow
     {

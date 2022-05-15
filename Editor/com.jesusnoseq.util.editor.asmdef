@@ -1,7 +1,9 @@
 {
     "name": "com.jesusnoseq.util.Editor",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "com.jesusnoseq.util"
+    ],
     "includePlatforms": [
         "Editor"
     ],

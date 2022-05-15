@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-namespace com.jesusnoseq.util
+namespace com.jesusnoseq.util.editor
 {
     [SelectionBase]
     public class SelectionBase : MonoBehaviour

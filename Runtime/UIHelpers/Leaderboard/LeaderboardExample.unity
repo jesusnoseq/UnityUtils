@@ -343,8 +343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf7c2cbc51c178f44a964cf1fdccd246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPointURL: https://ld50.onrender.com/ranks
-  salt: <SALT HERE>
 --- !u!114 &641787392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -451,46 +449,6 @@ PrefabInstance:
     - target: {fileID: 6555116778169150235, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116778207731921, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.2522131
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116778207731921, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116778207731921, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116778840832463, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116779318879581, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_Colors.m_PressedColor.b
-      value: 0.28470987
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116779318879581, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_Colors.m_PressedColor.g
-      value: 0.28470987
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116779318879581, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_Colors.m_PressedColor.r
-      value: 0.3301887
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116779318879581, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.b
-      value: 0.55297256
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116779318879581, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.g
-      value: 0.55297256
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555116779318879581, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.r
-      value: 0.9245283
       objectReference: {fileID: 0}
     - target: {fileID: 6555116779318879581, guid: 9472af37bd78cad40a4a5cbb2b2a3867, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
