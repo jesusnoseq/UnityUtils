@@ -7,7 +7,7 @@ I personally use this scripts for my game jam entries.
 1. Install [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
 2. Setup DOTween and generate ASMFDEF files
 3. Open the package manager (Window → Package Manager)
-4. Add Package from git URL https://github.com/jesusnoseq/UnityUtils or clone repo and add it from disk
+4. Add Package from git URL <https://github.com/jesusnoseq/UnityUtils.git> or clone repo and add it from disk
 
 ### If there are some console errors
 #### Make sure that assembly definition references are OK
@@ -119,7 +119,7 @@ TO-DO
 ## External Dependencies
 * DOTween
 
-## Ohter Github repos with useful unity resources
+## Other Github repos with useful unity resources
 * [awesome-unity](https://github.com/RyanNielson/awesome-unity)
 * [twitch-chat-connect](https://github.com/rhomita/twitch-chat-connect)
 * [Anime-Speed-Lines](https://github.com/MirzaBeig/Anime-Speed-Lines)
